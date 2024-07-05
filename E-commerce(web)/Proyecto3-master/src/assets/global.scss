@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'font_project';
+    src: url('../assets/font/Candara.ttf')format('truetype');
+    font-style: normal;
+}
+
+template, *{
+    font-family: 'font_project',sans-serif;
+}

@@ -1,0 +1,14 @@
+footer {
+  padding-top: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    #352d2d,
+    #2c3146,
+    #283b3b,
+    rgb(0, 0, 0)
+  );
+  color: rgb(255, 255, 255);
+}
+#Arriba {
+  padding-bottom: 20px;
+}

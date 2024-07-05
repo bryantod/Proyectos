@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("@/assets/img/FondoLogin.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-register {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(241, 241, 241, 0.88);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-top: 4px solid #ffcc33;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .form-register h5 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #663399;
+    border-radius: 5px;
+    background: #252323;
+    color: #fdadc7;
+    font-size: 16px;
+  }
+  
+  .controls:focus {
+    border-color: #ffcc33;
+    outline: none;
+  }
+  
+  .buttons {
+    width: 100%;
+    padding: 10px;
+    background: #663399;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttons:hover {
+    background: #532880;
+  }
+  
+  .form-register a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 400px) {
+    .form-register {
+      padding: 15px;
+    }
+    
+    .controls {
+      padding: 8px;
+      font-size: 14px;
+    }
+    
+    .buttons {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
